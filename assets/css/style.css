@@ -1450,7 +1450,37 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   transform: scale(0.01, 0.01);
 }
 
+@media (max-width: 1440px){
+	.socialpg iframe {
+    	text-align: left;
+    	width:100%;
+    	height:230px;
+   }
+}
+
+@media (max-width: 1366px){
+	.socialpg iframe {
+    	text-align: left;
+    	width:100%;
+    	height:230px;
+   }
+}
+
+@media (max-width: 1024px){
+	.socialpg iframe {
+    	text-align: left;
+    	width:100%;
+    	height:200px;
+   }
+}
+
 @media (max-width: 991px) {
+	.socialpg iframe {
+    	text-align: left;
+    	width:218px;
+    	height:200px;
+   }
+
   .navigation-link.white {
     background-color: #4b2f21;
   }
@@ -1520,7 +1550,29 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
 }
 
+@media (max-width: 778px){
+	.socialpg iframe {
+    	text-align: left;
+    	width:195px;
+    	height:200px;
+   }
+}
+
+@media (max-width: 768px) {
+	.socialpg iframe {
+    	text-align: left;
+    	width:195px;
+    	height:200px;
+   }
+}
+
 @media (max-width: 767px) {
+	.socialpg iframe {
+    	text-align: left;
+    	width:100%;
+    	height:200px;
+   }
+
   .hamburger-button.white {
     padding-top: 42px;
   }
@@ -1589,6 +1641,12 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 @media (max-width: 479px) {
+   .socialpg iframe {
+    	text-align: left;
+    	width:390px;
+    	height:220px;
+   }
+
   .button.tab {
     margin-bottom: 9px;
   }
@@ -1627,4 +1685,28 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .image-7 {
     margin-top: 0px;
   }
+}
+
+@media (max-width: 425px) {
+   .socialpg iframe {
+    	text-align: left;
+    	width:335px;
+    	height:200px;
+   }
+}
+
+@media (max-width: 375px) {
+   .socialpg iframe {
+    	text-align: left;
+    	width:275px;
+    	height:200px;
+   }
+}
+
+@media (max-width: 320px) {
+   .socialpg iframe {
+    	text-align: left;
+    	width:200px;
+    	height:150px;
+   }
 }
