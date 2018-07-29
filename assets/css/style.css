@@ -233,7 +233,7 @@ figcaption {
 }
 
 .navigation-bar.dark {
-  padding-top: 0px;
+  padding: 0px 20px 0px 20px;
   background-color: #290b03;
 }
 
