@@ -332,14 +332,13 @@ figcaption {
 
 .hero-slider {
   height: 455px;
-  background-color: transparent;
+  background-color: #4b2f21;
 }
 
 .slide {
   padding-top: 80px;
   padding-right: 85px;
   padding-left: 85px;
-  background-color: #4b2f21;
   color: #fff;
 }
 
