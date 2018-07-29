@@ -1466,6 +1466,14 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 @media (max-width: 1024px){
+	.navigation-bar.dark {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.navigation-link.white {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
 	.socialpg iframe {
     	text-align: left;
     	width:100%;
@@ -1558,6 +1566,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 @media (max-width: 768px) {
+	.hamburger-button.white {
+    	padding-top: 40px;
+  	}
 	.socialpg iframe {
     	text-align: left;
     	width:195px;
@@ -1684,9 +1695,18 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .image-7 {
     margin-top: 0px;
   }
+  .image-6 {
+  	margin-top: 0px;
+  }
+  .image-5 {
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 425px) {
+	.hamburger-button.white {
+    	padding-top: 35px;
+  	}
    .socialpg iframe {
     	text-align: left;
     	width:335px;
@@ -1695,6 +1715,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 @media (max-width: 375px) {
+	.hamburger-button.white {
+		margin-top: -5px;
+	}
    .socialpg iframe {
     	text-align: left;
     	width:275px;
@@ -1703,6 +1726,13 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 @media (max-width: 320px) {
+	.navigation-bar.dark {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.hamburger-button.white {
+		margin-top: -110px;
+	}
    .socialpg iframe {
     	text-align: left;
     	width:200px;
