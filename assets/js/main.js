@@ -1,3 +1,8 @@
+/* Ad Overlay JS */
+var closeButtons = $('.show');
+closeButtons.on('click', function() {
+  $(this).parent().hide();
+});/* Ad Overlay JS */
 
 document.onkeydown = function(e) {
         if (e.ctrlKey && 
