@@ -68,8 +68,7 @@
 	<div class="row-7 w-row">
 		<div class="w-col w-col-8">
 			<div class="w-form">
-				<form id="email-form" action="https://formspree.io/riluenterprises@gmail.com"
-      method="POST" name="email-form" data-name="Email Form" class="form-2">
+				<form id="email-form" name="email-form" data-name="Email Form" class="form-2">
 					<label for="Name-9" class="field-label">Name :</label>
 					<input type="text" class="form-field w-input" maxlength="80" name="Name"  placeholder="Eg. Ramesh Karki" id="Name-9" required=""/>
 					<label for="Email-11" class="field-label-2">Email Address :</label>
@@ -187,6 +186,48 @@
 		<a align="center" class="link" href="https://www.facebook.com/theclaytechsolution/" target="_blank">Designed By : Tech Solution - The Clay Pvt. Ltd.</a>
 		</div>
 </div>
+	
+<script>
+$(document).ready(function() {
+
+	$('#email-form').on('submit', function(e) {
+		e.preventDefault();
+		
+		//get the name field value
+		var name = $('#Name-9').val();
+		//get the name field value
+		var email = $('#Email-11').val();
+		//get the contact
+		var contact = $('#Phone-3').val();
+		//get the comments
+		var message = $('#Message').val();
+					
+		
+		//send to formspree
+		$.ajax({
+			url:'https://formspree.io/riluenterprises@gmail.com',
+			method:'POST',
+			data:{
+				name:name,
+				 email:email,
+				 contact:contact,
+				message:message,
+				_subject:'My Form Submission',
+			},
+			dataType:"json",
+			success:function() {
+				console.log('success');	
+				$('.w-form').hide();
+				$('.w-form-done').show();
+			}	
+
+		});		
+		
+	});
+
+});	
+
+</script>
 	
 <script src="assets/ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
 <script src="assets/js/main.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
