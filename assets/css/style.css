@@ -1760,13 +1760,13 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 	border-radius:50px;
 	text-align:center;
   	font-size:30px;
-	box-shadow: 2px 2px 3px #290b03;
+	box-shadow: 3px 3px 5px #290b03;
   	z-index:100;
 }
 
 .float:hover{
 	background-color:#290b03;
-	color:white;
+	color:#ffb554;
 }
 
 .my-float{
