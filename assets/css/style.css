@@ -1764,6 +1764,11 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   	z-index:100;
 }
 
+.float:hover{
+	background-color:#290b03;
+	color:white;
+}
+
 .my-float{
 	margin-top:16px;
 }
